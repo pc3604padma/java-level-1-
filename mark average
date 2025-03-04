@@ -1,0 +1,10 @@
+class MarkAverage {
+public static void main(String[] args) {
+        int Physics = 95;
+        int Maths = 94;
+        int Chemistry = 96;
+		float Average = (Physics+Maths+Chemistry)/3;
+
+        System.out.println("The average mark is " + Average );
+    }
+}
