@@ -1,0 +1,8 @@
+class MilesCalculator {
+public static void main(String[] args) {
+ doubleKiloMeter = 10.8;
+ double  Miles = 10.8 * 1.6;
+ 
+ System.out.println("The given km in miles is " + Miles);
+}
+}
