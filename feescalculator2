@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class FeesCalculators {
+public static void main(String[] args) {
+int Fees;
+int DiscountPercentage;
+Scanner input = new Scanner(System.in);
+System.out.print("Enter Fees in INR: ");
+Fees = input.nextDouble();
+double Discount = Fees*(DiscountPercentage/100);
+double DiscountAmount= Fees-Discount;
+System.out.println("The discount amount is INR"+ Discount + "and final discounted fee is INR" + DiscountAmount);
+input.close();
+}
+}
