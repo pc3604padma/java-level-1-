@@ -1,0 +1,9 @@
+class FeesCalculator {
+public static void main(String[] args) { 
+double Fees = 12500;
+double DiscountPercentage = 10;
+double DiscountAmount = Fees*(DiscountPercentage/100);
+double TotalAmount = Fees-DiscountAmount;
+System.out.println("The discount amount is INR"+DiscountAmount+"and final discounted fee is INR"+TotalAmount);
+}
+}
